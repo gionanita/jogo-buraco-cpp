@@ -1,37 +1,32 @@
-🃏 Jogo de Buraco - Distribuidor de Cartas em C++
-Este projeto é uma simulação da lógica de um jogo de Buraco. O programa gerencia dois baralhos completos, realiza o embaralhamento aleatório e distribui 11 cartas para cada um dos 4 jogadores participantes.
+# 🃏 Jogo de Buraco - Distribuidor de Cartas em C++
 
-🎯 Objetivo do Projeto
-O foco principal foi o estudo de Matrizes (Arrays Multidimensionais) e Lógica de Algoritmos em C++, criando uma representação em memória para cada uma das 52 cartas de um baralho duplo (104 cartas no total).
+Este projeto é uma simulação da lógica de um jogo de **Buraco**. O programa gerencia dois baralhos completos, realiza o embaralhamento aleatório e distribui 11 cartas para cada um dos 4 jogadores participantes.
 
-🎴 Notação das Cartas
-Para identificação das cartas, foi utilizada a seguinte convenção: N-99-B
+## 🎯 Objetivo do Projeto
+O foco principal foi o estudo de **Matrizes (Arrays Multidimensionais)** e **Lógica de Algoritmos** em C++, criando uma representação em memória para cada uma das 52 cartas de um baralho duplo (104 cartas no total).
 
-N (Naipe): 1-Copas | 2-Paus | 3-Ouro | 4-Espada
+## 🎴 Notação das Cartas
+Para identificação das cartas, foi utilizada a seguinte convenção: `N-99-B`
+* **N (Naipe):** 1-Copas | 2-Paus | 3-Ouro | 4-Espada
+* **99 (Número):** 01-Ás até 13-Rei
+* **B (Baralho):** 1 ou 2
 
-99 (Número): 01-Ás até 13-Rei
+**Exemplo:** `4-10-2` representa o **10 de Espadas** vindo do **Baralho 2**.
 
-B (Baralho): 1 ou 2
+## 🚀 Funcionalidades
+* **Geração Automática:** Cria as 104 cartas usando laços de repetição aninhados.
+* **Embaralhamento Aleatório:** Utiliza o algoritmo de troca (swap) com semente de tempo (`srand(time(0))`) para garantir que cada execução gere resultados diferentes.
+* **Distribuição de Mãos:** Entrega 11 cartas por jogador, respeitando a sequência do monte e gerenciando a transição entre o baralho 1 e 2.
+* **Exibição Organizada:** Interface via terminal que apresenta as cartas de cada jogador de forma clara.
 
-Exemplo: 4-10-2 representa o 10 de Espadas vindo do Baralho 2.
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** C++
+* **Bibliotecas Padrão:** `<iostream>`, `<string>`, `<ctime>`, `<cstdlib>`, `<cstdio>`, `<locale.h>`.
 
-🚀 Funcionalidades
-Geração Automática: Cria as 104 cartas usando laços de repetição.
+## 💻 Como Rodar
+1. Baixe o arquivo `jogoburaco.cpp`.
+2. Abra em seu compilador (Dev-C++, Code::Blocks ou VS Code).
+3. Compile e execute (F11 no Dev-C++).
 
-Embaralhamento Aleatório: Utiliza o algoritmo de troca (swap) com semente de tempo (srand(time(0))) para garantir que cada partida seja única.
-
-Distribuição: Entrega 11 cartas por jogador, respeitando a sequência do monte.
-
-Exibição: Interface via terminal organizada por jogador.
-
-🛠️ Tecnologias Utilizadas
-Linguagem: C++
-
-Bibliotecas Padrão: iostream, string, ctime, cstdlib, cstdio.
-
-💻 Como Rodar
-Clone o repositório ou baixe o arquivo .cpp.
-
-Abra em seu compilador favorito (Dev-C++, Code::Blocks, VS Code).
-
-Compile e execute o código.
+---
+*Projeto desenvolvido para fins de aprendizado de lógica de programação.*
