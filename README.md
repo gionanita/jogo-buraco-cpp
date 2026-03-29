@@ -1,4 +1,4 @@
-# 🃏 Jogo de Buraco - Distribuidor de Cartas em C++
+# 🃏 Jogo do Buraco - Distribuidor de Cartas em C++
 
 Este projeto é uma simulação da lógica de um jogo de **Buraco**. O programa gerencia dois baralhos completos, realiza o embaralhamento aleatório e distribui 11 cartas para cada um dos 4 jogadores participantes.
 
